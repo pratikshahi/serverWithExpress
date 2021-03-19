@@ -1,0 +1,23 @@
+{
+  "name": "my_express_server",
+  "version": "1.0.0",
+  "description": "creating server with expressJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratikshahi/serverWithExpress.git"
+  },
+  "author": "Pratik Shahi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pratikshahi/serverWithExpress/issues"
+  },
+  "homepage": "https://github.com/pratikshahi/serverWithExpress#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
