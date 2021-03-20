@@ -5,8 +5,8 @@ const express=require("express"); //incoprating express to file
 //  express function into app
 const app=express();  
 //send to browser
-app.get("/",function(request,response){
-    response.send("<h1>Hello world!</h1>");
+app.get("/",function(req,res){
+    res.send("<h1>Hello world!</h1>");
 });
               
 //listen method //3000 is port listening to
